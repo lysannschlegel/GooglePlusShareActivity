@@ -26,7 +26,9 @@
     // init UI
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     RootViewController* rootViewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    navigationController.navigationBar.translucent = NO;
+    self.window.rootViewController = navigationController;
     
     // show UI
     [self.window makeKeyAndVisible];

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		467CD3F4B44541058160E728 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC83A1D26D2046E38834C5AB /* libPods.a */; };
+		8ACFA2F61801868000CBE716 /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ACFA2F51801868000CBE716 /* example.jpg */; };
 		8AD26477180143AC00652133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD26476180143AC00652133 /* Foundation.framework */; };
 		8AD26479180143AC00652133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD26478180143AC00652133 /* CoreGraphics.framework */; };
 		8AD2647B180143AC00652133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD2647A180143AC00652133 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		8ACFA2F3180184E500CBE716 /* GPPShareActivity@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x~iphone.png"; sourceTree = "<group>"; };
 		8ACFA2F4180184E500CBE716 /* GPPShareActivity~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity~iphone.png"; sourceTree = "<group>"; };
+		8ACFA2F51801868000CBE716 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
 		8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlusShareActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD26476180143AC00652133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AD26478180143AC00652133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,13 +94,14 @@
 		8AD2647C180143AC00652133 /* GooglePlusShareActivityExample */ = {
 			isa = PBXGroup;
 			children = (
+				8AD264B118014A1100652133 /* Podfile */,
 				8AD26485180143AC00652133 /* AppDelegate.h */,
 				8AD26486180143AC00652133 /* AppDelegate.m */,
 				8AD2648E180143AC00652133 /* RootViewController.h */,
 				8AD2648F180143AC00652133 /* RootViewController.m */,
+				8ACFA2F51801868000CBE716 /* example.jpg */,
 				8AD26491180143AC00652133 /* Images.xcassets */,
 				8AD2647D180143AC00652133 /* Supporting Files */,
-				8AD264B118014A1100652133 /* Podfile */,
 			);
 			name = GooglePlusShareActivityExample;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ACFA2F61801868000CBE716 /* example.jpg in Resources */,
 				8AD26492180143AC00652133 /* Images.xcassets in Resources */,
 				8AD26481180143AC00652133 /* InfoPlist.strings in Resources */,
 			);
