@@ -35,6 +35,7 @@
 		8AD2648E180143AC00652133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8AD2648F180143AC00652133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AD26491180143AC00652133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = GooglePlusShareActivity.podspec; path = ../GooglePlusShareActivity.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		8AD2646A180143AC00652133 = {
 			isa = PBXGroup;
 			children = (
+				8AD264AE1801460500652133 /* GooglePlusShareActivity */,
 				8AD2647C180143AC00652133 /* GooglePlusShareActivityExample */,
 				8AD26475180143AC00652133 /* Frameworks */,
 				8AD26474180143AC00652133 /* Products */,
@@ -104,6 +106,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8AD264AE1801460500652133 /* GooglePlusShareActivity */ = {
+			isa = PBXGroup;
+			children = (
+				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */,
+			);
+			path = GooglePlusShareActivity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,7 +144,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Lysann Schlegel";
 			};
-			buildConfigurationList = 8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivityExample" */;
+			buildConfigurationList = 8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivity" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -310,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivityExample" */ = {
+		8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AD264A6180143AC00652133 /* Debug */,
@@ -326,6 +336,7 @@
 				8AD264AA180143AC00652133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
