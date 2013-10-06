@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios, '6.0'
 
-  s.dependency 'google-plus-ios-sdk', '~> 1.4.0'
+  s.dependency 'google-plus-ios-sdk', '1.4.0'
+  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/google-plus-ios-sdk/google-plus-ios-sdk-1.4.0"' }
 end

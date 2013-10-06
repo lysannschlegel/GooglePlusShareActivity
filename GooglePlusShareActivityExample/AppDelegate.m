@@ -10,11 +10,19 @@
 
 #import "RootViewController.h"
 
+#import <GooglePlus/GooglePlus.h>
+
+
+#define GOOGLE_PLUS_CLIENT_ID @"960790927266.apps.googleusercontent.com"
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // initialize Google+ Sign In API
+    [self initGooglePlusSignIn];
+    
     // init UI
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     RootViewController* rootViewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
@@ -23,6 +31,17 @@
     // show UI
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (void)initGooglePlusSignIn
+{
+    [GPPSignIn sharedInstance].clientID = GOOGLE_PLUS_CLIENT_ID;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    // handle Google+ Sign In callback URL
+    return [[GPPSignIn sharedInstance] handleURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
 @end

@@ -46,10 +46,12 @@
         if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
             // present in popup
             self.activityPopoverController = [[UIPopoverController alloc] initWithContentViewController:activityViewController];
+            gppShareActivity.activityPopoverViewController = self.activityPopoverController;
             [self.activityPopoverController presentPopoverFromBarButtonItem:sender permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
             
         } else {
             // present modally
+            gppShareActivity.activitySuperViewController = self;
             [self presentViewController:activityViewController animated:YES completion:NULL];
         }
         
