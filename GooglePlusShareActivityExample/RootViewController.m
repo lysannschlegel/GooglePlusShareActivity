@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 
-#import "GPPShareActivity.h"
+#import <GooglePlusShareActivity/GPPShareActivity.h>
 
 
 @interface RootViewController ()
