@@ -19,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8ACFA2F3180184E500CBE716 /* GPPShareActivity@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x~iphone.png"; sourceTree = "<group>"; };
+		8ACFA2F4180184E500CBE716 /* GPPShareActivity~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity~iphone.png"; sourceTree = "<group>"; };
 		8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlusShareActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD26476180143AC00652133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AD26478180143AC00652133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,8 @@
 			children = (
 				8AD264B4180150DC00652133 /* GPPShareActivity.h */,
 				8AD264B5180150DC00652133 /* GPPShareActivity.m */,
+				8ACFA2F3180184E500CBE716 /* GPPShareActivity@2x~iphone.png */,
+				8ACFA2F4180184E500CBE716 /* GPPShareActivity~iphone.png */,
 				8AD264B6180152A100652133 /* GPPShareActivity.png */,
 				8AD264B7180152A100652133 /* GPPShareActivity@2x.png */,
 				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */,
