@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  GooglePlusShareActivityExample
 //
 //  Created by Lysann Schlegel on 10/6/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 @end
