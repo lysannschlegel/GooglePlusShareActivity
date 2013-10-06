@@ -80,6 +80,8 @@ Setting `canShowEmptyForm` to `YES` will display the Google+ share activity even
 
 For a complete example see `GooglePlusShareActivityExample/GooglePlusShareActivityExample.xcworkspace`.
 
+*Note:* Do not change the delegates of `GPPSignIn` and `GPPShare` while the activity is active. `GPPShareActivity` must be informed about sign in and sharing progress. It will override the current delegates while performing the activity and forward all notifications to the orignal delegates.
+
 
 ## Installation
 
