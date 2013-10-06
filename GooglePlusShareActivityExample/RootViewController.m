@@ -56,8 +56,17 @@
     // toggle activity popover on iPad. Show the modal share dialog on iPhone
     if(!self.activityPopoverController) {
         
-        // set up items to share
+        // set up items to share, in this case some text and an image
         NSArray* activityItems = @[ @"Hello Google+!", self.image ];
+        
+        // URL sharing works as well. But you cannot share an image and a URL at the same time :(
+        //NSArray* activityItems = @[ @"Hello Google+!", [NSURL URLWithString:@"https://github.com/lysannschlegel/GooglePlusShareActivity"] ];
+        
+        // You can also set up a GPPShareBuilder on your own. All other items will be ignored
+        //id<GPPNativeShareBuilder> shareBuilder = (id<GPPNativeShareBuilder>)[GPPShare sharedInstance].nativeShareDialog;
+        //[shareBuilder setPrefillText:@"Hello Google+!"];
+        //[shareBuilder setURLToShare: [NSURL URLWithString:@"https://github.com/lysannschlegel/GooglePlusShareActivity"]];
+        //NSArray* activityItems = @[ @"Does not appear", shareBuilder ];
         
         // set up and present activity view controller
         GPPShareActivity* gppShareActivity = [[GPPShareActivity alloc] init];
