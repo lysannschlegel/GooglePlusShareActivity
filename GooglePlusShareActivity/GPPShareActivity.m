@@ -28,7 +28,7 @@
 - (instancetype)init
 {
     if (self = [super init]) {
-        _canShowEmptyForm = YES;
+        _canShowEmptyForm = NO;
     }
     return self;
 }

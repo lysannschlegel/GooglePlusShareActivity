@@ -29,7 +29,7 @@
 
 // Set to YES if the activity should be enabled even when there are no items it can share.
 // The Google+ sharing form will then be empty, but can be filled by the user.
-// Default is YES.
+// Default is NO.
 @property (assign, nonatomic) BOOL canShowEmptyForm;
 
 @end
