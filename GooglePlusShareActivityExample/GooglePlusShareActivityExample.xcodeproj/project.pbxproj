@@ -24,10 +24,10 @@
 		8AD26476180143AC00652133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AD26478180143AC00652133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8AD2647A180143AC00652133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8AD2647E180143AC00652133 /* GooglePlusShareActivityExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GooglePlusShareActivityExample-Info.plist"; sourceTree = "<group>"; };
+		8AD2647E180143AC00652133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AD26480180143AC00652133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AD26482180143AC00652133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8AD26484180143AC00652133 /* GooglePlusShareActivityExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GooglePlusShareActivityExample-Prefix.pch"; sourceTree = "<group>"; };
+		8AD26484180143AC00652133 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		8AD26485180143AC00652133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AD26486180143AC00652133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AD26489180143AC00652133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,7 @@
 		8AD2648F180143AC00652133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AD26491180143AC00652133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = GooglePlusShareActivity.podspec; path = ../GooglePlusShareActivity.podspec; sourceTree = "<group>"; };
+		8AD264B118014A1100652133 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,17 +92,18 @@
 				8AD2648F180143AC00652133 /* ViewController.m */,
 				8AD26491180143AC00652133 /* Images.xcassets */,
 				8AD2647D180143AC00652133 /* Supporting Files */,
+				8AD264B118014A1100652133 /* Podfile */,
 			);
-			path = GooglePlusShareActivityExample;
+			name = GooglePlusShareActivityExample;
 			sourceTree = "<group>";
 		};
 		8AD2647D180143AC00652133 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AD2647E180143AC00652133 /* GooglePlusShareActivityExample-Info.plist */,
+				8AD2647E180143AC00652133 /* Info.plist */,
 				8AD2647F180143AC00652133 /* InfoPlist.strings */,
 				8AD26482180143AC00652133 /* main.m */,
-				8AD26484180143AC00652133 /* GooglePlusShareActivityExample-Prefix.pch */,
+				8AD26484180143AC00652133 /* Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -111,7 +113,8 @@
 			children = (
 				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */,
 			);
-			path = GooglePlusShareActivity;
+			name = GooglePlusShareActivity;
+			path = ../GooglePlusShareActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +147,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Lysann Schlegel";
 			};
-			buildConfigurationList = 8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivity" */;
+			buildConfigurationList = 8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivityExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -297,8 +300,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GooglePlusShareActivityExample/GooglePlusShareActivityExample-Prefix.pch";
-				INFOPLIST_FILE = "GooglePlusShareActivityExample/GooglePlusShareActivityExample-Info.plist";
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -310,8 +313,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GooglePlusShareActivityExample/GooglePlusShareActivityExample-Prefix.pch";
-				INFOPLIST_FILE = "GooglePlusShareActivityExample/GooglePlusShareActivityExample-Info.plist";
+				GCC_PREFIX_HEADER = Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -320,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivity" */ = {
+		8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivityExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AD264A6180143AC00652133 /* Debug */,
