@@ -34,6 +34,10 @@
 		8AD26491180143AC00652133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = GooglePlusShareActivity.podspec; path = ../GooglePlusShareActivity.podspec; sourceTree = "<group>"; };
 		8AD264B118014A1100652133 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; };
+		8AD264B4180150DC00652133 /* GPPShareActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPShareActivity.h; sourceTree = "<group>"; };
+		8AD264B5180150DC00652133 /* GPPShareActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPPShareActivity.m; sourceTree = "<group>"; };
+		8AD264B6180152A100652133 /* GPPShareActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPPShareActivity.png; sourceTree = "<group>"; };
+		8AD264B7180152A100652133 /* GPPShareActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x.png"; sourceTree = "<group>"; };
 		EC83A1D26D2046E38834C5AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AD21553CCB4502AAA14FA2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +115,10 @@
 		8AD264AE1801460500652133 /* GooglePlusShareActivity */ = {
 			isa = PBXGroup;
 			children = (
+				8AD264B4180150DC00652133 /* GPPShareActivity.h */,
+				8AD264B5180150DC00652133 /* GPPShareActivity.m */,
+				8AD264B6180152A100652133 /* GPPShareActivity.png */,
+				8AD264B7180152A100652133 /* GPPShareActivity@2x.png */,
 				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */,
 			);
 			name = GooglePlusShareActivity;
