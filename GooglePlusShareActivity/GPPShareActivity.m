@@ -99,6 +99,7 @@
         if ([item conformsToProtocol:@protocol(GPPShareBuilder)]) {
             // override complete share builder
             self.customShareBuilder = item;
+            break;
             
         } else if ([item isKindOfClass:[NSString class]]) {
             [self.shareBuilder setPrefillText:item];
