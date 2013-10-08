@@ -47,6 +47,9 @@ NSArray* activityItems = @[ @"Hello Google+!", [UIImage imageNamed:@"example.jpg
 // URL sharing works as well. But you cannot share an image and a URL at the same time :(
 //NSArray* activityItems = @[ @"Hello Google+!", [NSURL URLWithString:@"https://github.com/lysannschlegel/GooglePlusShareActivity"] ];
 
+// If a file path URL is passed, it must point to an image. It is be attached as if you used a UIImage directly.
+//NSArray* activityItems = @[ @"Hello Google+!", [[NSBundle mainBundle] URLForResource:@"example" withExtension:@"jpg"] ];
+
 // You can also set up a GPPShareBuilder on your own. All other items will be ignored
 //id<GPPNativeShareBuilder> shareBuilder = (id<GPPNativeShareBuilder>)[GPPShare sharedInstance].nativeShareDialog;
 //[shareBuilder setPrefillText:@"Hello Google+!"];

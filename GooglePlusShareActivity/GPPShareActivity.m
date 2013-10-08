@@ -110,8 +110,20 @@
             if (hasMediaOrURL) {
                 NSLog(@"GPPShareActivity ignoring NSURL because there is already a media object attached.");
             } else {
-                hasMediaOrURL = YES;
-                [self.shareBuilder setURLToShare:item];
+                NSURL* url = item;
+                if (url.isFileURL) {
+                    // must be an image
+                    UIImage* image = [UIImage imageWithContentsOfFile:url.path];
+                    if (image) {
+                        hasMediaOrURL = YES;
+                        [self.shareBuilder attachImage:image];
+                    } else {
+                        NSLog(@"GPPShareActivity ignoring file path or file reference URL because it does not point to an image.");
+                    }
+                } else {
+                    hasMediaOrURL = YES;
+                    [self.shareBuilder setURLToShare:url];
+                }
             }
             
         } else if ([item isKindOfClass:[UIImage class]]) {
