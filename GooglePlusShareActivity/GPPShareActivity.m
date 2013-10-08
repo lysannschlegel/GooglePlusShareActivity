@@ -90,6 +90,7 @@
             }
         }
     }
+    return NO;
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems
