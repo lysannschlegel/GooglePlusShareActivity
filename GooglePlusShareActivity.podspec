@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GooglePlusShareActivity'
-  s.version      = '0.1.0'
+  s.version      = '0.2.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'An UIActivity subclass for Sharing on Google+'
   s.homepage     = 'http://github.com/lysannschlegel/GooglePlusShareActivity'
@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'GooglePlusShareActivity/*.{h,m}'
   s.resources    = 'GooglePlusShareActivity/*.png'
+  s.frameworks   = 'Foundation', 'UIKit'
   s.requires_arc = true
   s.platform     = :ios, '6.0'
 
