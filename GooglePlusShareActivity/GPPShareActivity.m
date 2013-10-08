@@ -95,6 +95,8 @@
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems
 {
+    BOOL hasMediaOrURL = NO;
+    
     for (id item in activityItems) {
         if ([item conformsToProtocol:@protocol(GPPShareBuilder)]) {
             // override complete share builder
@@ -103,10 +105,22 @@
             
         } else if ([item isKindOfClass:[NSString class]]) {
             [self.shareBuilder setPrefillText:item];
+            
         } else if ([item isKindOfClass:[NSURL class]]) {
-            [self.shareBuilder setURLToShare:item];
+            if (hasMediaOrURL) {
+                NSLog(@"GPPShareActivity ignoring NSURL because there is already a media object attached.");
+            } else {
+                hasMediaOrURL = YES;
+                [self.shareBuilder setURLToShare:item];
+            }
+            
         } else if ([item isKindOfClass:[UIImage class]]) {
-            [self.shareBuilder attachImage:item];
+            if (hasMediaOrURL) {
+                NSLog(@"GPPShareActivity ignoring UIImage because there is already a media object attached.");
+            } else {
+                hasMediaOrURL = YES;
+                [self.shareBuilder attachImage:item];
+            }
         }
     }
 }
