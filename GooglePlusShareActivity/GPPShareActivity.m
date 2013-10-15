@@ -57,7 +57,7 @@
 }
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_7_0
-- (UIActivityCategory)activityCategory
++ (UIActivityCategory)activityCategory
 {
     return UIActivityCategoryShare;
 }
