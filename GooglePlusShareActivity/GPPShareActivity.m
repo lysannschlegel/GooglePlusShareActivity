@@ -11,6 +11,8 @@
 #import <GooglePlus/GooglePlus.h>
 #import <GoogleOpenSource/GoogleOpenSource.h>
 
+NSString *const GPPShareActivityType = @"org.lysannschlegel.GPPShareActivity";
+
 
 @interface GPPShareActivity ()
 
@@ -51,9 +53,8 @@
 
 #pragma mark - UIActivity implementation
 
-- (NSString *)activityType
-{
-    return @"GooglePlusShareActivity";
+- (NSString *)activityType {
+    return GPPShareActivityType;
 }
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_7_0

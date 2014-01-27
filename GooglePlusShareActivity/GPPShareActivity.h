@@ -10,6 +10,8 @@
 
 #import <GooglePlus/GooglePlus.h>
 
+extern NSString *const GPPShareActivityType;
+
 
 // An UIActivity that opens a share dialog for Google+.
 // Item types accepted:

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GooglePlusShareActivity'
-  s.version      = '0.2.3'
+  s.version      = '0.2.4'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'An UIActivity subclass for Sharing on Google+'
   s.homepage     = 'http://github.com/lysannschlegel/GooglePlusShareActivity'
