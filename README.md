@@ -1,5 +1,9 @@
 This library provides a UIActivity subclass for Google+ sharing. It uses the native share builder API from the official Google+ iOS SDK for sharing, and the GPPSignIn API for signing in.
 
+## Screenshots
+
+<img src="https://github.com/lysannschlegel/GooglePlusShareActivity/wiki/screenshots/UIActivityViewController.png" alt="UIActivityViewController with GooglePlusShareActivity" width="200px"/> &nbsp;
+<img src="https://github.com/lysannschlegel/GooglePlusShareActivity/wiki/screenshots/GPPShareBuilder_text.png" alt="GPPShareBuilder" width="200px"/>
 
 ## Usage
 
@@ -80,16 +84,17 @@ Setting `canShowEmptyForm` to `YES` will display the Google+ share activity even
 
 For a complete example see `GooglePlusShareActivityExample/GooglePlusShareActivityExample.xcworkspace`.
 
-*Note:* Do not change the delegates of `GPPSignIn` and `GPPShare` while the activity is active. `GPPShareActivity` must be informed about sign in and sharing progress. It will override the current delegates while performing the activity and forward all notifications to the orignal delegates.
+### Caveats
 
+Do not change the delegates of `GPPSignIn` and `GPPShare` while the activity is active. `GPPShareActivity` must be informed about sign in and sharing progress.
+If you want to be a delegate as well, assign your delegates before starting the activity. `GPPShareActivity` will override the current delegates while performing the activity and forward all notifications to the orignal delegates.
 
 ## Installation
 
-For [CocoaPods](http://cocoapods.org/) there is a Podspec in this repository.
+Installation through [CocoaPods](http://cocoapods.org/) is recommended:
 ```
-pod 'GooglePlusShareActivity', :podfile => '/path/to/GooglePlusShareActivity.podspec'
+pod 'GooglePlusShareActivity', '~> 0.2.3'
 ```
-
 
 ## License
 
