@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GooglePlusShareActivity'
-  s.version      = '0.2.4'
+  s.version      = '0.2.5'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'An UIActivity subclass for Sharing on Google+'
   s.homepage     = 'http://github.com/lysannschlegel/GooglePlusShareActivity'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios, '6.0'
 
-  googlePlusIosSdkVersion = '1.5.0'
+  googlePlusIosSdkVersion = '1.5.1'
   s.dependency 'google-plus-ios-sdk', googlePlusIosSdkVersion # XXX must use this very version to know the framework search path below :(
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => "\"$(PODS_ROOT)/google-plus-ios-sdk/google-plus-ios-sdk-#{googlePlusIosSdkVersion}\"" }
 end
