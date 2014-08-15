@@ -93,7 +93,7 @@ If you want to be a delegate as well, assign your delegates before starting the 
 
 Installation through [CocoaPods](http://cocoapods.org/) is recommended:
 ```
-pod 'GooglePlusShareActivity', '~> 0.2.3'
+pod 'GooglePlusShareActivity'
 ```
 
 ## License
