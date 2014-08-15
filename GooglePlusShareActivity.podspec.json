@@ -1,6 +1,6 @@
 {
   "name": "GooglePlusShareActivity",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/lysannschlegel/GooglePlusShareActivity.git",
-    "tag": "0.2.5"
+    "tag": "0.2.6"
   },
   "source_files": "GooglePlusShareActivity/*.{h,m}",
   "resources": "GooglePlusShareActivity/*.png",
@@ -26,10 +26,10 @@
   },
   "dependencies": {
     "google-plus-ios-sdk": [
-      "1.5.1"
+      "1.7.0"
     ]
   },
   "xcconfig": {
-    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/google-plus-ios-sdk/google-plus-ios-sdk-1.5.1\""
+    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/google-plus-ios-sdk/google-plus-ios-sdk-1.7.0\""
   }
 }
