@@ -36,7 +36,7 @@
 		8AD2648E180143AC00652133 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		8AD2648F180143AC00652133 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8AD26491180143AC00652133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = GooglePlusShareActivity.podspec; path = ../GooglePlusShareActivity.podspec; sourceTree = "<group>"; };
+		8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec.json */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = GooglePlusShareActivity.podspec.json; path = ../GooglePlusShareActivity.podspec.json; sourceTree = "<group>"; };
 		8AD264B118014A1100652133 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8AD264B4180150DC00652133 /* GPPShareActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPShareActivity.h; sourceTree = "<group>"; };
 		8AD264B5180150DC00652133 /* GPPShareActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPPShareActivity.m; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				8ACFA2F4180184E500CBE716 /* GPPShareActivity~iphone.png */,
 				8AD264B6180152A100652133 /* GPPShareActivity.png */,
 				8AD264B7180152A100652133 /* GPPShareActivity@2x.png */,
-				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */,
+				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec.json */,
 			);
 			name = GooglePlusShareActivity;
 			path = ../GooglePlusShareActivity;
