@@ -153,11 +153,15 @@ NSString *const GPPShareActivityType = @"org.lysannschlegel.GPPShareActivity";
             [self performActivityInternal];
             
         } else if (self.activitySuperViewController) {
-            // dismiss modal view controller (iPhone)
-            [self.activitySuperViewController dismissViewControllerAnimated:YES completion:^(void){
-                // trigger auth and sharing
+            if (self.activitySuperViewController.presentedViewController) {
+                // dismiss modal view controller (iPhone)
+                [self.activitySuperViewController dismissViewControllerAnimated:YES completion:^(void){
+                    // trigger auth and sharing
+                    [self performActivityInternal];
+                }];
+            } else {
                 [self performActivityInternal];
-            }];
+            }
             
         } else {
             // trigger auth and sharing
