@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "An UIActivity subclass for Sharing on Google+"
   s.homepage     = "http://github.com/lysannschlegel/GooglePlusShareActivity"
   s.author       = { "Lysann Schlegel" => "http://github.com/lysannschlegel" }
-  s.source       = { :git => "https://github.com/sticksen/GooglePlusShareActivity.git"}
+  s.source       = { :git => "https://github.com/sticksen/GooglePlusShareActivity.git" , :tag => "0.2.9"}
   s.source_files = "GooglePlusShareActivity/*.{h,m}"
   s.resources = "GooglePlusShareActivity/*.png"
   s.requires_arc = true
