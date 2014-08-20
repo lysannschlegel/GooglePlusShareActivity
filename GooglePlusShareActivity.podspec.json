@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/lysannschlegel/GooglePlusShareActivity.git",
-    "tag": "0.2.6"
+    "tag": "0.2.8"
   },
   "source_files": "GooglePlusShareActivity/*.{h,m}",
   "resources": "GooglePlusShareActivity/*.png",
