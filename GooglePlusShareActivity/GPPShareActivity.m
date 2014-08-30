@@ -71,7 +71,11 @@ NSString *const GPPShareActivityType = @"org.lysannschlegel.GPPShareActivity";
 
 - (UIImage *)activityImage
 {
-    return [UIImage imageNamed:@"GPPShareActivity"];
+    if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1 ){
+        return [UIImage imageNamed:@"GPPShareActivity_ios8"];
+    } else {
+        return [UIImage imageNamed:@"GPPShareActivity"];
+    }
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems

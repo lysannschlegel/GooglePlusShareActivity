@@ -20,8 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A00871619B20A8A00262B0E /* GPPShareActivity_ios8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity_ios8@2x.png"; sourceTree = "<group>"; };
+		8A00871719B20A8A00262B0E /* GPPShareActivity_ios8@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity_ios8@2x~iphone.png"; sourceTree = "<group>"; };
 		8ACFA2F3180184E500CBE716 /* GPPShareActivity@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x~iphone.png"; sourceTree = "<group>"; };
-		8ACFA2F4180184E500CBE716 /* GPPShareActivity~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity~iphone.png"; sourceTree = "<group>"; };
 		8ACFA2F51801868000CBE716 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
 		8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlusShareActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD26476180143AC00652133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,7 +41,6 @@
 		8AD264B118014A1100652133 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8AD264B4180150DC00652133 /* GPPShareActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPShareActivity.h; sourceTree = "<group>"; };
 		8AD264B5180150DC00652133 /* GPPShareActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPPShareActivity.m; sourceTree = "<group>"; };
-		8AD264B6180152A100652133 /* GPPShareActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPPShareActivity.png; sourceTree = "<group>"; };
 		8AD264B7180152A100652133 /* GPPShareActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x.png"; sourceTree = "<group>"; };
 		EC83A1D26D2046E38834C5AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AD21553CCB4502AAA14FA2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 				8AD264B4180150DC00652133 /* GPPShareActivity.h */,
 				8AD264B5180150DC00652133 /* GPPShareActivity.m */,
 				8ACFA2F3180184E500CBE716 /* GPPShareActivity@2x~iphone.png */,
-				8ACFA2F4180184E500CBE716 /* GPPShareActivity~iphone.png */,
-				8AD264B6180152A100652133 /* GPPShareActivity.png */,
 				8AD264B7180152A100652133 /* GPPShareActivity@2x.png */,
+				8A00871719B20A8A00262B0E /* GPPShareActivity_ios8@2x~iphone.png */,
+				8A00871619B20A8A00262B0E /* GPPShareActivity_ios8@2x.png */,
 				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */,
 			);
 			name = GooglePlusShareActivity;
