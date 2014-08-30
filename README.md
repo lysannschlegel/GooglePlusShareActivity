@@ -1,3 +1,5 @@
+[![Cocoapods Version](http://img.shields.io/cocoapods/v/GooglePlusShareActivity.svg?style=flat)](http://cocoapods.org/?q=GooglePlusShareActivity) [![License](http://img.shields.io/cocoapods/l/GooglePlusShareActivity.svg?style=flat)](https://github.com/lysannschlegel/GooglePlusShareActivity/blob/master/LICENSE)
+
 This library provides a UIActivity subclass for Google+ sharing. It uses the native share builder API from the official Google+ iOS SDK for sharing, and the GPPSignIn API for signing in.
 
 ## Screenshots
