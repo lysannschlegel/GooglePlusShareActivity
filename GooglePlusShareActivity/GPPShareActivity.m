@@ -57,7 +57,7 @@ NSString *const GPPShareActivityType = @"org.lysannschlegel.GPPShareActivity";
     return GPPShareActivityType;
 }
 
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_7_0
+#ifdef __IPHONE_7_0
 + (UIActivityCategory)activityCategory
 {
     return UIActivityCategoryShare;
