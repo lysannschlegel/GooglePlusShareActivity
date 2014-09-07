@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   google-plus-ios-sdk: f613bd712196b435ecc098eed75afb3364bca177
-  GooglePlusShareActivity: c6605450e344c8df3d3833082a77212c0ac53a27
+  GooglePlusShareActivity: 208fd79b1770695ac80de406368c7041d1e80e21
 
 COCOAPODS: 0.33.1

@@ -71,9 +71,12 @@ NSString *const GPPShareActivityType = @"org.lysannschlegel.GPPShareActivity";
 
 - (UIImage *)activityImage
 {
-    if ([[[UIDevice currentDevice] systemVersion] compare:@"8.0" options:NSNumericSearch] != NSOrderedAscending) {
+#ifdef __IPHONE_8_0
+    if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_7_1 ){
         return [UIImage imageNamed:@"GPPShareActivity_ios8"];
-    } else {
+    } else
+#endif
+    {
         return [UIImage imageNamed:@"GPPShareActivity"];
     }
 }
