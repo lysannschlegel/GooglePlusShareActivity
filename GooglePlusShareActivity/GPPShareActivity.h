@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GooglePlus/GooglePlus.h>
+#import <googleplus-ios-sdk/GooglePlus.h>
 
 extern NSString *const GPPShareActivityType;
 
