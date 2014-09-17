@@ -8,8 +8,8 @@
 
 #import "GPPShareActivity.h"
 
-#import <GooglePlus/GooglePlus.h>
-#import <GoogleOpenSource/GoogleOpenSource.h>
+#import <googleplus-ios-sdk/GooglePlus.h>
+#import <googleplus-ios-sdk/GoogleOpenSource.h>
 
 NSString *const GPPShareActivityType = @"org.lysannschlegel.GPPShareActivity";
 
