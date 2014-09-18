@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'GooglePlusShareActivity'
-  s.version      = '0.2.9'
+  s.version      = '0.2.10'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'An UIActivity subclass for Sharing on Google+'
   s.homepage     = 'http://github.com/lysannschlegel/GooglePlusShareActivity'
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios, '6.0'
 
-  s.dependency 'google-plus-ios-sdk', '~> 1.7.0'
-  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => "\"$(PODS_ROOT)/google-plus-ios-sdk/**/\"" }
+  s.dependency 'googleplus-ios-sdk', '~> 1.7.1'
+  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => "\"$(PODS_ROOT)/googleplus-ios-sdk/**/\"" }
 end
