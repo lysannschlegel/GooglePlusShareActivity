@@ -84,7 +84,7 @@ Setting `activityPopoverViewController` or `activitySuperViewController` allows 
 
 Setting `canShowEmptyForm` to `YES` will display the Google+ share activity even if no item is recognized as sharable with the activity. In this case, an empty form is shown, and the user can add text to it. (Default is `NO`, i.e. the activity is not included in the activity view.)
 
-For a complete example see `GooglePlusShareActivityExample/GooglePlusShareActivityExample.xcworkspace`.
+For a complete example see `Example/GooglePlusShareActivityExample.xcworkspace`.
 
 ### Caveats
 
