@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				8AD264AE1801460500652133 /* GooglePlusShareActivity */,
-				8AD2647C180143AC00652133 /* GooglePlusShareActivityExample */,
+				8AD2647C180143AC00652133 /* Example */,
 				8AD26475180143AC00652133 /* Frameworks */,
 				8AD26474180143AC00652133 /* Products */,
 				F3AD21553CCB4502AAA14FA2 /* Pods.xcconfig */,
@@ -91,7 +91,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8AD2647C180143AC00652133 /* GooglePlusShareActivityExample */ = {
+		8AD2647C180143AC00652133 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				8AD264B118014A1100652133 /* Podfile */,
@@ -103,7 +103,7 @@
 				8AD26491180143AC00652133 /* Images.xcassets */,
 				8AD2647D180143AC00652133 /* Supporting Files */,
 			);
-			name = GooglePlusShareActivityExample;
+			name = Example;
 			sourceTree = "<group>";
 		};
 		8AD2647D180143AC00652133 /* Supporting Files */ = {
