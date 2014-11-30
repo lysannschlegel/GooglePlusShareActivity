@@ -51,29 +51,52 @@
 
 #pragma mark - Actions
 
-- (void) shareButtonClicked:(UIBarButtonItem*)sender
+- (NSArray*)activityItems
+{
+    // set up items to share, in this case some text and an image
+    NSArray* activityItems = @[ @"Hello Google+!", self.image ];
+
+    // URL sharing works as well. But you cannot share an image and a URL at the same time :(
+    //NSArray* activityItems = @[ @"Hello Google+!", [NSURL URLWithString:@"https://github.com/lysannschlegel/GooglePlusShareActivity"] ];
+
+    // If a file path URL is passed, it must point to an image. It is attached as if you used a UIImage directly.
+    //NSArray* activityItems = @[ @"Hello Google+!", [[NSBundle mainBundle] URLForResource:@"example" withExtension:@"jpg"] ];
+
+    // You can also set up a GPPShareBuilder on your own. All other items will be ignored
+    //id<GPPNativeShareBuilder> shareBuilder = (id<GPPNativeShareBuilder>)[GPPShare sharedInstance].nativeShareDialog;
+    //[shareBuilder setPrefillText:@"Hello Google+!"];
+    //[shareBuilder setURLToShare: [NSURL URLWithString:@"https://github.com/lysannschlegel/GooglePlusShareActivity"]];
+    //NSArray* activityItems = @[ @"Does not appear", shareBuilder ];
+
+    return activityItems;
+}
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_8_0
+
+// Use this much simpler code if you target only iOS 8 and above
+
+- (void)shareButtonClicked:(UIBarButtonItem*)sender
+{
+    GPPShareActivity* gppShareActivity = [[GPPShareActivity alloc] init];
+
+    UIActivityViewController* activityViewController = [[UIActivityViewController alloc] initWithActivityItems:self.activityItems applicationActivities:@[gppShareActivity]];
+    activityViewController.popoverPresentationController.barButtonItem = sender;
+
+    [self presentViewController:activityViewController animated:YES completion:NULL];
+}
+
+#else
+
+// Use this code when you target iOS versions prior to iOS 8. Works on iOS 8 as well.
+
+- (void)shareButtonClicked:(UIBarButtonItem*)sender
 {
     // toggle activity popover on iPad. Show the modal share dialog on iPhone
-    if(!self.activityPopoverController) {
-        
-        // set up items to share, in this case some text and an image
-        NSArray* activityItems = @[ @"Hello Google+!", self.image ];
-        
-        // URL sharing works as well. But you cannot share an image and a URL at the same time :(
-        //NSArray* activityItems = @[ @"Hello Google+!", [NSURL URLWithString:@"https://github.com/lysannschlegel/GooglePlusShareActivity"] ];
-        
-        // If a file path URL is passed, it must point to an image. It is be attached as if you used a UIImage directly.
-        //NSArray* activityItems = @[ @"Hello Google+!", [[NSBundle mainBundle] URLForResource:@"example" withExtension:@"jpg"] ];
-        
-        // You can also set up a GPPShareBuilder on your own. All other items will be ignored
-        //id<GPPNativeShareBuilder> shareBuilder = (id<GPPNativeShareBuilder>)[GPPShare sharedInstance].nativeShareDialog;
-        //[shareBuilder setPrefillText:@"Hello Google+!"];
-        //[shareBuilder setURLToShare: [NSURL URLWithString:@"https://github.com/lysannschlegel/GooglePlusShareActivity"]];
-        //NSArray* activityItems = @[ @"Does not appear", shareBuilder ];
-        
+    if (!self.activityPopoverController) {
+
         // set up and present activity view controller
         GPPShareActivity* gppShareActivity = [[GPPShareActivity alloc] init];
-        UIActivityViewController* activityViewController = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:@[gppShareActivity]];
+        UIActivityViewController* activityViewController = [[UIActivityViewController alloc] initWithActivityItems:self.activityItems applicationActivities:@[gppShareActivity]];
         
         if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
             // present in popup
@@ -92,5 +115,7 @@
         self.activityPopoverController = nil;
     }
 }
+
+#endif
 
 @end
