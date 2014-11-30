@@ -14,7 +14,7 @@
 NSString *const GPPShareActivityType = @"org.lysannschlegel.GPPShareActivity";
 
 
-@interface GPPShareActivity ()
+@interface GPPShareActivity () <GPPSignInDelegate, GPPShareDelegate>
 
 @property (weak, nonatomic) id<GPPSignInDelegate> userSignInDelegate;
 @property (weak, nonatomic) NSObject<GPPShareDelegate>* userShareDelegate;

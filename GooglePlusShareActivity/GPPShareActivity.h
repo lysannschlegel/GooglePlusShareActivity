@@ -22,7 +22,7 @@ extern NSString *const GPPShareActivityType;
 //   - Objects that conform to the GPPShareBuilder protocol override any other items, and
 //     instead use only the item to create the share dialog. Any instance overrides the previous
 //     one.
-@interface GPPShareActivity : UIActivity <GPPSignInDelegate, GPPShareDelegate>
+@interface GPPShareActivity : UIActivity
 
 // Set one of these to dismiss the popover view controller (iPad) or presented view
 // controller (iPhone) before initiating the Google+ sharing
