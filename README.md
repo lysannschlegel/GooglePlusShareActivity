@@ -9,7 +9,7 @@ This library provides a UIActivity subclass for Google+ sharing. It uses the nat
 
 ## Usage
 
-Follow Steps 1 and 4 of the [Google+ iOS SDK Getting Started instructions](https://developers.google.com/+/mobile/ios/getting-started) to
+Follow Steps 1 and 3 of the [Google+ iOS SDK Getting Started instructions](https://developers.google.com/+/mobile/ios/getting-started) to
 
   * Create an APIs Console project, and
   * Add an URL Type to your iOS app.
