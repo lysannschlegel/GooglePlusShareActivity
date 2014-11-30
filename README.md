@@ -7,7 +7,12 @@ This library provides a UIActivity subclass for Google+ sharing. It uses the nat
 <img src="https://github.com/lysannschlegel/GooglePlusShareActivity/wiki/screenshots/UIActivityViewController.png" alt="UIActivityViewController with GooglePlusShareActivity" width="200px"/> &nbsp;
 <img src="https://github.com/lysannschlegel/GooglePlusShareActivity/wiki/screenshots/GPPShareBuilder_text.png" alt="GPPShareBuilder" width="200px"/>
 
-## Usage
+## Installation & Usage
+
+Installation through [CocoaPods](http://cocoapods.org/) is recommended:
+```
+pod 'GooglePlusShareActivity'
+```
 
 Follow Steps 1 and 3 of the [Google+ iOS SDK Getting Started instructions](https://developers.google.com/+/mobile/ios/getting-started) to
 
@@ -90,13 +95,6 @@ For a complete example see `Example/GooglePlusShareActivityExample.xcworkspace`.
 
 Do not change the delegates of `GPPSignIn` and `GPPShare` while the activity is active. `GPPShareActivity` must be informed about sign in and sharing progress.
 If you want to be a delegate as well, assign your delegates before starting the activity. `GPPShareActivity` will override the current delegates while performing the activity and forward all notifications to the orignal delegates.
-
-## Installation
-
-Installation through [CocoaPods](http://cocoapods.org/) is recommended:
-```
-pod 'GooglePlusShareActivity'
-```
 
 ## License
 
