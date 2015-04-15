@@ -11,6 +11,7 @@
 		8A81E7D71ADEF24600A1C59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E7D61ADEF24600A1C59F /* AppDelegate.swift */; };
 		8A81E7D91ADEF24600A1C59F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E7D81ADEF24600A1C59F /* RootViewController.swift */; };
 		8A81E7DE1ADEF24600A1C59F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A81E7DD1ADEF24600A1C59F /* Images.xcassets */; };
+		8A81E8011ADF051800A1C59F /* example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A81E8001ADF051800A1C59F /* example.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8A81E7FD1ADEF69900A1C59F /* GPPShareActivity_ios8@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity_ios8@2x~iphone.png"; sourceTree = "<group>"; };
 		8A81E7FE1ADEF73600A1C59F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		8A81E7FF1ADEFE0500A1C59F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8A81E8001ADF051800A1C59F /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = example.jpg; path = ../Resources/example.jpg; sourceTree = "<group>"; };
 		D01D782DA6DB52895303E1E6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				8A81E7FE1ADEF73600A1C59F /* Podfile */,
 				8A81E7D61ADEF24600A1C59F /* AppDelegate.swift */,
 				8A81E7D81ADEF24600A1C59F /* RootViewController.swift */,
+				8A81E8001ADF051800A1C59F /* example.jpg */,
 				8A81E7DD1ADEF24600A1C59F /* Images.xcassets */,
 				8A81E7D41ADEF24600A1C59F /* Supporting Files */,
 			);
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A81E8011ADF051800A1C59F /* example.jpg in Resources */,
 				8A81E7DE1ADEF24600A1C59F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
@@ -331,6 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";

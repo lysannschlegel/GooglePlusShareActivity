@@ -15,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool
     {
+        // initialize Google+ Sign In API
+        self.initializeGooglePlusSignIn()
+
         // init UI
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         let rootViewController = RootViewController()
@@ -25,5 +28,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         // show UI
         self.window?.makeKeyAndVisible()
         return true
+    }
+
+    func initializeGooglePlusSignIn()
+    {
+        GPPSignIn.sharedInstance().clientID = "960790927266-27gare2mst5gjtue59u6iroi5fncs2e4.apps.googleusercontent.com"
+    }
+
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool
+    {
+        // handle Google+ Sign In callback URL
+        return GPPSignIn.sharedInstance().handleURL(url, sourceApplication: sourceApplication, annotation: annotation)
     }
 }
