@@ -26,7 +26,7 @@
 		8A55C8631A2B70EA00A4DB55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		8ACFA2F3180184E500CBE716 /* GPPShareActivity@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x~iphone.png"; sourceTree = "<group>"; };
 		8ACFA2F51801868000CBE716 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = example.jpg; path = ../Resources/example.jpg; sourceTree = "<group>"; };
-		8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlusShareActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD26473180143AC00652133 /* GooglePlusShareActivity ObjC Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GooglePlusShareActivity ObjC Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD26476180143AC00652133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AD26478180143AC00652133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8AD2647A180143AC00652133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -89,7 +89,7 @@
 		8AD26474180143AC00652133 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */,
+				8AD26473180143AC00652133 /* GooglePlusShareActivity ObjC Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			);
 			name = "GooglePlusShareActivity ObjC Example";
 			productName = GooglePlusShareActivityExample;
-			productReference = 8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */;
+			productReference = 8AD26473180143AC00652133 /* GooglePlusShareActivity ObjC Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

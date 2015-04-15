@@ -8,10 +8,10 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   GooglePlusShareActivity:
-    :path: ../../
+    :path: "../../"
 
 SPEC CHECKSUMS:
   googleplus-ios-sdk: 065d9135061a5f84c07656a68ced48336408fe35
-  GooglePlusShareActivity: 055980551633543ba169ed1f4ae6a0df33309ca9
+  GooglePlusShareActivity: eeccb765cc07283d261bae5b808a8f26d733c9c2
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.3

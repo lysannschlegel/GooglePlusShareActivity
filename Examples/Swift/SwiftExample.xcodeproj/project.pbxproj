@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		13EABD556C6E62976CBF553E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		24F4F12F988C96257D97B1F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A81E7D11ADEF24600A1C59F /* SwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A81E7D11ADEF24600A1C59F /* GooglePlusShareActivity Swift Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GooglePlusShareActivity Swift Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A81E7D51ADEF24600A1C59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A81E7D61ADEF24600A1C59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A81E7D81ADEF24600A1C59F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		8A81E7D21ADEF24600A1C59F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A81E7D11ADEF24600A1C59F /* SwiftExample.app */,
+				8A81E7D11ADEF24600A1C59F /* GooglePlusShareActivity Swift Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			);
 			name = "GooglePlusShareActivity Swift Example";
 			productName = GooglePlusShareActivityExampleSwift;
-			productReference = 8A81E7D11ADEF24600A1C59F /* SwiftExample.app */;
+			productReference = 8A81E7D11ADEF24600A1C59F /* GooglePlusShareActivity Swift Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
