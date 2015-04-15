@@ -29,6 +29,7 @@
 		8A81E7FC1ADEF69900A1C59F /* GPPShareActivity_ios8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity_ios8@2x.png"; sourceTree = "<group>"; };
 		8A81E7FD1ADEF69900A1C59F /* GPPShareActivity_ios8@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity_ios8@2x~iphone.png"; sourceTree = "<group>"; };
 		8A81E7FE1ADEF73600A1C59F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		8A81E7FF1ADEFE0500A1C59F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		D01D782DA6DB52895303E1E6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				8A81E7D51ADEF24600A1C59F /* Info.plist */,
+				8A81E7FF1ADEFE0500A1C59F /* Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -318,6 +320,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -330,6 +333,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
