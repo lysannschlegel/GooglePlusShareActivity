@@ -34,7 +34,7 @@
     [self.view addSubview:imageView];
     
     // lay out
-    if ([[UIDevice currentDevice].systemVersion floatValue] >= 7.0)
+    if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1)
         self.edgesForExtendedLayout = UIRectEdgeNone;
     imageView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addConstraints:@[
