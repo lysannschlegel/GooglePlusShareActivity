@@ -7,14 +7,26 @@ This library provides a UIActivity subclass for Google+ sharing. It uses the nat
 <img src="https://github.com/lysannschlegel/GooglePlusShareActivity/wiki/screenshots/UIActivityViewController.png" alt="UIActivityViewController with GooglePlusShareActivity" width="200px"/> &nbsp;
 <img src="https://github.com/lysannschlegel/GooglePlusShareActivity/wiki/screenshots/GPPShareBuilder_text.png" alt="GPPShareBuilder" width="200px"/>
 
-## Installation & Usage
+## Setup & Usage
 
-### Setup
+Below are detailed instructions for integrating and using the library in your iOS app.
+There are also example projects for Swift and Objective-C in the `Examples` directory.
+
+### Installation
 
 Installation through [CocoaPods](http://cocoapods.org/) is recommended:
-```
+``` ruby
 pod 'GooglePlusShareActivity'
 ```
+
+If your app is written in Swift, you must import some header files in your Objective-C bridging header.
+``` objective-c
+#import <GooglePlus/GooglePlus.h>
+#import <GooglePlusShareActivity/GPPShareActivity.h>
+```
+You can find more information about Objective-C pods in Swift apps [here](https://medium.com/@stigi/swift-cocoapods-da09d8ba6dd2).
+
+### Google+ API
 
 Follow Steps 1 and 3 of the [Google+ iOS SDK Getting Started instructions](https://developers.google.com/+/mobile/ios/getting-started) to
 
@@ -84,8 +96,6 @@ It accepts a string and either an image or a URL. You can also create and custom
 ```
 
 Setting `canShowEmptyForm` to `YES` will display the Google+ share activity even if no item is recognized as sharable with the activity. In this case, an empty form is shown, and the user can add text to it. (Default is `NO`, i.e. the activity is not included in the activity view.)
-
-For a complete example see `Example/GooglePlusShareActivityExample.xcworkspace`.
 
 ### Presentation on iOS < 8
 
