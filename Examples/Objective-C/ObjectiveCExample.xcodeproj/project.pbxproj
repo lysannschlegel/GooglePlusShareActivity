@@ -22,10 +22,10 @@
 /* Begin PBXFileReference section */
 		8A00871619B20A8A00262B0E /* GPPShareActivity_ios8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity_ios8@2x.png"; sourceTree = "<group>"; };
 		8A00871719B20A8A00262B0E /* GPPShareActivity_ios8@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity_ios8@2x~iphone.png"; sourceTree = "<group>"; };
-		8A55C8621A2B70EA00A4DB55 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8A55C8631A2B70EA00A4DB55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A55C8621A2B70EA00A4DB55 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		8A55C8631A2B70EA00A4DB55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		8ACFA2F3180184E500CBE716 /* GPPShareActivity@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x~iphone.png"; sourceTree = "<group>"; };
-		8ACFA2F51801868000CBE716 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example.jpg; sourceTree = "<group>"; };
+		8ACFA2F51801868000CBE716 /* example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = example.jpg; path = ../Resources/example.jpg; sourceTree = "<group>"; };
 		8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlusShareActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD26476180143AC00652133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AD26478180143AC00652133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -38,14 +38,15 @@
 		8AD26486180143AC00652133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AD2648E180143AC00652133 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		8AD2648F180143AC00652133 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		8AD26491180143AC00652133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AD26491180143AC00652133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Resources/Images.xcassets; sourceTree = "<group>"; };
 		8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; name = GooglePlusShareActivity.podspec; path = ../GooglePlusShareActivity.podspec; sourceTree = "<group>"; };
 		8AD264B118014A1100652133 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8AD264B4180150DC00652133 /* GPPShareActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPPShareActivity.h; sourceTree = "<group>"; };
 		8AD264B5180150DC00652133 /* GPPShareActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPPShareActivity.m; sourceTree = "<group>"; };
 		8AD264B7180152A100652133 /* GPPShareActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPPShareActivity@2x.png"; sourceTree = "<group>"; };
+		BF14F051F4078FF88AB0E3AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EC83A1D26D2046E38834C5AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3AD21553CCB4502AAA14FA2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F487D536EF5877B8CC112B2E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33AAF9395FABB0210063A9A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F487D536EF5877B8CC112B2E /* Pods.debug.xcconfig */,
+				BF14F051F4078FF88AB0E3AC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8AD2646A180143AC00652133 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +82,7 @@
 				8AD2647C180143AC00652133 /* Example */,
 				8AD26475180143AC00652133 /* Frameworks */,
 				8AD26474180143AC00652133 /* Products */,
-				F3AD21553CCB4502AAA14FA2 /* Pods.xcconfig */,
+				33AAF9395FABB0210063A9A8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,15 +143,15 @@
 				8AD264AF1801464500652133 /* GooglePlusShareActivity.podspec */,
 			);
 			name = GooglePlusShareActivity;
-			path = ../GooglePlusShareActivity;
+			path = ../../GooglePlusShareActivity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8AD26472180143AC00652133 /* GooglePlusShareActivityExample */ = {
+		8AD26472180143AC00652133 /* GooglePlusShareActivity ObjC Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AD264A8180143AC00652133 /* Build configuration list for PBXNativeTarget "GooglePlusShareActivityExample" */;
+			buildConfigurationList = 8AD264A8180143AC00652133 /* Build configuration list for PBXNativeTarget "GooglePlusShareActivity ObjC Example" */;
 			buildPhases = (
 				25856C73B21A4538AA5A222F /* Check Pods Manifest.lock */,
 				8AD2646F180143AC00652133 /* Sources */,
@@ -153,7 +163,7 @@
 			);
 			dependencies = (
 			);
-			name = GooglePlusShareActivityExample;
+			name = "GooglePlusShareActivity ObjC Example";
 			productName = GooglePlusShareActivityExample;
 			productReference = 8AD26473180143AC00652133 /* GooglePlusShareActivityExample.app */;
 			productType = "com.apple.product-type.application";
@@ -168,7 +178,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Lysann Schlegel";
 			};
-			buildConfigurationList = 8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivityExample" */;
+			buildConfigurationList = 8AD2646E180143AC00652133 /* Build configuration list for PBXProject "ObjectiveCExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8AD26472180143AC00652133 /* GooglePlusShareActivityExample */,
+				8AD26472180143AC00652133 /* GooglePlusShareActivity ObjC Example */,
 			);
 		};
 /* End PBXProject section */
@@ -227,7 +237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -252,6 +262,7 @@
 				8AD26480180143AC00652133 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ../Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -331,7 +342,7 @@
 		};
 		8AD264A9180143AC00652133 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3AD21553CCB4502AAA14FA2 /* Pods.xcconfig */;
+			baseConfigurationReference = F487D536EF5877B8CC112B2E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -346,7 +357,7 @@
 		};
 		8AD264AA180143AC00652133 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3AD21553CCB4502AAA14FA2 /* Pods.xcconfig */;
+			baseConfigurationReference = BF14F051F4078FF88AB0E3AC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -362,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8AD2646E180143AC00652133 /* Build configuration list for PBXProject "GooglePlusShareActivityExample" */ = {
+		8AD2646E180143AC00652133 /* Build configuration list for PBXProject "ObjectiveCExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AD264A6180143AC00652133 /* Debug */,
@@ -371,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AD264A8180143AC00652133 /* Build configuration list for PBXNativeTarget "GooglePlusShareActivityExample" */ = {
+		8AD264A8180143AC00652133 /* Build configuration list for PBXNativeTarget "GooglePlusShareActivity ObjC Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AD264A9180143AC00652133 /* Debug */,

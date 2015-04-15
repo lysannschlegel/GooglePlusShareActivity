@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.lysannschlegel.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>org.lysannschlegel.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -26,10 +26,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>org.lysannschlegel.GooglePlusShareActivityExample</string>
+			<string>org.lysannschlegel.GooglePlusShareActivity-ObjC-Example</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>org.lysannschlegel.GooglePlusShareActivityExample</string>
+				<string>org.lysannschlegel.GooglePlusShareActivity-ObjC-Example</string>
 			</array>
 		</dict>
 	</array>
