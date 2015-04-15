@@ -1,3 +1,8 @@
 platform :ios, '6.0'
 
 pod 'GooglePlusShareActivity', :path => '../../'
+
+# This example project uses the local version of the Pod for
+# easier development. In an actual application you should use
+# the Pod from the official Podspec repository:
+#pod 'GooglePlusShareActivity'
