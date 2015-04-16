@@ -1,6 +1,6 @@
 PODS:
   - googleplus-ios-sdk (1.7.1)
-  - GooglePlusShareActivity (0.2.10):
+  - GooglePlusShareActivity (0.2.11):
     - googleplus-ios-sdk (~> 1.7.1)
 
 DEPENDENCIES:
@@ -12,6 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   googleplus-ios-sdk: 065d9135061a5f84c07656a68ced48336408fe35
-  GooglePlusShareActivity: eeccb765cc07283d261bae5b808a8f26d733c9c2
+  GooglePlusShareActivity: 5dd746b28db5dfa37c0bdf1cc47073abaf9d8f95
 
 COCOAPODS: 0.36.3
