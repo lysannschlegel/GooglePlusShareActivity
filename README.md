@@ -19,6 +19,8 @@ Installation through [CocoaPods](http://cocoapods.org/) is recommended:
 pod 'GooglePlusShareActivity'
 ```
 
+**Note:** In CocoaPods 0.36 there is [an issue](https://github.com/CocoaPods/CocoaPods/issues/3106) that prevents using this library if you enable `use_frameworks!` in your Podfile. See also [#11](https://github.com/lysannschlegel/GooglePlusShareActivity/issues/11).
+
 If your app is written in Swift, you must import some header files in your Objective-C bridging header.
 ``` objective-c
 #import <GooglePlus/GooglePlus.h>
